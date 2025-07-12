@@ -10,7 +10,7 @@ cypress/
   support/
     step_definitions/   # Step definitions for each feature
     e2e.js              # Support file
-mochawesome-report/     # Mochawesome HTML report output
+mochawesome-report/     # Mochawesome json report output
 ```
 
 ## How to Run the Tests
@@ -26,7 +26,7 @@ mochawesome-report/     # Mochawesome HTML report output
    ```
 
 3. **View the report**
-   - Open `mochawesome-report/mochawesome.html` in your browser.
+   - Open `mochawesome-report/mochawesome_017.json` 
 
 4. **Screenshots**
    - Screenshots are automatically saved in the `cypress/screenshots/` folder.
